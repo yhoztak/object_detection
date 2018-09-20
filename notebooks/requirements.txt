@@ -1,0 +1,16 @@
+pandas==0.21.0
+boto3==1.7.61
+geojsonio
+geopandas
+ipykernel
+ipyleaflet
+ipywidgets
+matplotlib
+numpy
+opencv-python==3.3.0.10
+pyproj
+rasterio==1.0a12
+setuptools
+scikit-image
+shapely
+boto3
