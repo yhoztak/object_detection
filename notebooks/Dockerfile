@@ -59,8 +59,7 @@ RUN rm -rf /var/lib/{apt,dpkg,cache,log}/
 RUN mkdir -p /etc/pki/tls/certs
 RUN cp /etc/ssl/certs/ca-certificates.crt /etc/pki/tls/certs/ca-bundle.crt
 
-RUN export hawaii_debris_access_key=AKIAIVIXRTCOLJ5XKPUQ
-RUN export hawaii_debris_secret_key=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
-
+RUN export hawaii_debris_access_key=xxxx
+RUN export hawaii_debris_secret_key=xxxxx
 RUN chmod 777 .
 USER $NB_USER
