@@ -3,7 +3,10 @@
 """
 Created on Fri Sep 14 08:12:45 2018
 
-@author: ross
+@author: ross.winans@gmail.com
+
+This script will sift through a directory of .jpg images and look for images that are all 0s. If these images are found,
+they are copied to a new directory (.../nodata) and the original is deleted.
 """
 
 from os import walk, path, remove
