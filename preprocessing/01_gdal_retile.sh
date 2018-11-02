@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#this file is just a wrapper to automate the gdal_retile.py. 
+#gdal_retile.py is available as part of the gdal utilities, which was downloaded as an apt package through the ubuntugis-stable package repository. 
+
 mkdir ./retile
 for i in *.jp2; do
 no_ext=${i%.*};
